@@ -101,6 +101,6 @@
   </Target>
   -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8" Condition="$(CodeAnalysis)=='true'" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2" Condition="$(CodeAnalysis)=='true'" />
   </ItemGroup>
 </Project>
